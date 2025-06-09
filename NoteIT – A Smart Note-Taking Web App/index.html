@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoteIT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&display=swap" rel="stylesheet">
+    
+
+ 
+</head>
+<body>
+   
+    <div class="navbar">
+        <h1>NoteIT</h1>
+    </div>
+
+    <div class="container">
+        <div class="note-container">
+            <h2>DSA running-notes</h2>
+            <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi neque quibusdam minus, vitae cum maxime. Odit sint sequi quis dignissimos, laborum exercitationem architecto velit placeat. .</h5>
+            <button onclick ="deletenote(event)">Delete</button>
+        </div>
+    </div>
+
+
+    <div class="overlay"></div>
+
+    <div class="popup-box">
+        <h2>Add Notes</h2>
+        <form>
+            <input type="text" placeholder="Notes Title" id="note-title">
+            <textarea placeholder="Enter your notes" id="notes"></textarea>
+            <button id="add-note">ADD</button>
+            <button id="cancel-note">CANCEL</button>
+        </form>
+    </div>
+   
+<button class="add-button" id="showpop">+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
